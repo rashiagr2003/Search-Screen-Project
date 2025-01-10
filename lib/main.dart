@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:search_screen/features/Splash%20Screen/splash_screen.dart';
 
-import 'features/searchScreen/search_screen.dart';
 import 'features/searchScreen/search_screen_provider.dart'; // Import your SearchProvider
 
 void main() {
@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: const SearchScreen(),
+        home: const SplashScreen(),
       ),
     );
   }

@@ -38,6 +38,7 @@ dependencies:
   http:
   provider:
   dio:
+  google_fonts:
 
 dev_dependencies:
   flutter_test:
